@@ -9,11 +9,11 @@ Approach taken to get the user details and validate the details:
     - console.log(res.body.data.email); 
     - console.log(res.body.data.first_name); 
     In the console print it shows "undefined"
-    Then I get to know that it is stored in the one array array formate, after that I used the map concept to creates a new array with the results of calling a function for every array element. In this case, it's looping over the res.body.data array.
+    Then I get to know that it is stored in the one array formate, after that I used the map concept to create a new array with the results of calling a function for every array element. In this case, it's looping over the "res.body.data" array.
 
-2. To get the data of user by using ID I have created dynamic method to pass the "ID"
+2. To get the data of user by using ID, I have created dynamic method to pass the "ID"
 
-3. In the 3rd scenario I have validated the response code user details of the ID = 6
+3. In the 3rd scenario I have validated the response code and details of the user(ID = 6)
 
 Approach taken to post the user details and validate the details:
 
